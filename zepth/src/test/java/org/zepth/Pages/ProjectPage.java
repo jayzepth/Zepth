@@ -16,14 +16,18 @@ public class ProjectPage
 			this.driver = driver;
 			this.pr = pr;
 		}
-		public void NavigateToProject(int projectId)
+		public void NavigateToProject(String ProjectName) throws InterruptedException
 		{
-			List<WebElement> projectWithId = driver.findElements(By.xpath("//tr[@class='odd' or @class='even']"));
-			int totalProject = projectWithId.size();
-			for (int i=0;i<totalProject;i++)
+			Thread.sleep(5000);
+			List<WebElement> projectList = driver.findElements(By.xpath(pr.getProperty("projectList")));
+			for (WebElement projects:projectList)
 			{
-				WebElement size = projectWithId.get(i);
-				String projectName = driver.findElement(By.xpath("//a[@class='hlText']")).getText();
+				String Projectname = projects.getText();
+				if(Projectname.contains(ProjectName))
+				{
+					projects.click();
+					break;
+				}
 			}
 		}
 

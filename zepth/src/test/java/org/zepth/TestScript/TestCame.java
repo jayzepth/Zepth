@@ -19,6 +19,6 @@ public class TestCame extends Base
 		portfolio.SelectCompany("Zepth Technologies");
 		
 		ProjectPage pp = new ProjectPage(driver, pr);
-		pp.NavigateToProject(0);
+		pp.NavigateToProject("Ocean House");
 	}	
 }
