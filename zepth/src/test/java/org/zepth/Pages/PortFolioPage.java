@@ -55,4 +55,18 @@ public class PortFolioPage
 			}
 		}
 	}
+	public void NavigateToProject(String ProjectName) throws InterruptedException
+	{
+		Thread.sleep(5000);
+		List<WebElement> projectList = driver.findElements(By.xpath(pr.getProperty("projectList")));
+		for (WebElement projects:projectList)
+		{
+			String Projectname = projects.getText();
+			if(Projectname.contains(ProjectName))
+			{
+				projects.click();
+				break;
+			}
+		}
+	}
 }

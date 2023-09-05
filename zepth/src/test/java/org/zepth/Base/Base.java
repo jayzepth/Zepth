@@ -28,10 +28,10 @@ public class Base
 		driver.manage().window().maximize();
 		
 	}
-//	@AfterMethod
-//	public void BrowserClose()
-//	{
-//		driver.close();
-//	}
+	@AfterMethod
+	public void BrowserClose()
+	{
+		driver.close();
+	}
 
 }

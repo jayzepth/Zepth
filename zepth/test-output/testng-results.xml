@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-04T12:43:06 IST" name="Default suite" finished-at="2023-09-04T12:43:34 IST" duration-ms="28169">
+  <suite started-at="2023-09-05T19:26:38 IST" name="Default suite" finished-at="2023-09-05T19:27:48 IST" duration-ms="70282">
     <groups>
     </groups>
-    <test started-at="2023-09-04T12:43:06 IST" name="Default test" finished-at="2023-09-04T12:43:34 IST" duration-ms="28169">
+    <test started-at="2023-09-05T19:26:38 IST" name="Default test" finished-at="2023-09-05T19:27:48 IST" duration-ms="70282">
       <class name="org.zepth.TestScript.TestCame">
-        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.TestCame@298a5e20]" started-at="2023-09-04T12:43:06 IST" name="Browserlaunch" finished-at="2023-09-04T12:43:14 IST" duration-ms="7844" status="PASS">
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.TestCame@248e319b]" started-at="2023-09-05T19:26:38 IST" name="Browserlaunch" finished-at="2023-09-05T19:26:44 IST" duration-ms="6107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browserlaunch -->
-        <test-method signature="Cotetest()[pri:0, instance:org.zepth.TestScript.TestCame@298a5e20]" started-at="2023-09-04T12:43:14 IST" name="Cotetest" finished-at="2023-09-04T12:43:34 IST" duration-ms="20252" status="PASS">
+        <test-method signature="Cotetest()[pri:0, instance:org.zepth.TestScript.TestCame@248e319b]" started-at="2023-09-05T19:26:44 IST" name="Cotetest" finished-at="2023-09-05T19:27:48 IST" duration-ms="64119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cotetest -->

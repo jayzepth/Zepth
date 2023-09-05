@@ -1,15 +1,21 @@
 package org.zepth.Assertions;
 
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 public class Assert 
 {
-	public static void Assert1(String Expected, String Actual)
+	public static void Assert1(String expected, String actual, ExtentTest Test)
 	{
-		if(Expected.equals(Actual))
+		if(expected.equals(actual))
 		{
-			System.out.println("Result is showing as expected");
+			Test.log(LogStatus.PASS, "TestCase is getting Pass");
+			System.out.println("Passed");
 		}
-		else {
-			System.out.println("Result is getting failed");
+		else
+		{
+			Test.log(LogStatus.FAIL, "TestCase is getting Failed");
+			System.out.println("Failed");
 		}
 	}
 
