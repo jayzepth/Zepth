@@ -1,21 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-05T19:26:38 IST" name="Default suite" finished-at="2023-09-05T19:27:48 IST" duration-ms="70282">
+  <suite started-at="2023-09-11T16:17:10 IST" name="Default suite" finished-at="2023-09-11T16:21:20 IST" duration-ms="249415">
     <groups>
     </groups>
-    <test started-at="2023-09-05T19:26:38 IST" name="Default test" finished-at="2023-09-05T19:27:48 IST" duration-ms="70282">
-      <class name="org.zepth.TestScript.TestCame">
-        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.TestCame@248e319b]" started-at="2023-09-05T19:26:38 IST" name="Browserlaunch" finished-at="2023-09-05T19:26:44 IST" duration-ms="6107" status="PASS">
+    <test started-at="2023-09-11T16:17:10 IST" name="Default test" finished-at="2023-09-11T16:21:20 IST" duration-ms="249415">
+      <class name="org.zepth.TestScript.CommenandCenterLinkVerification">
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:17:10 IST" name="Browserlaunch" finished-at="2023-09-11T16:17:18 IST" duration-ms="7938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browserlaunch -->
-        <test-method signature="Cotetest()[pri:0, instance:org.zepth.TestScript.TestCame@248e319b]" started-at="2023-09-05T19:26:44 IST" name="Cotetest" finished-at="2023-09-05T19:27:48 IST" duration-ms="64119" status="PASS">
+        <test-method signature="TC_1_PCCLinkVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:17:18 IST" name="TC_1_PCCLinkVerification" finished-at="2023-09-11T16:17:42 IST" duration-ms="23343" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Cotetest -->
-      </class> <!-- org.zepth.TestScript.TestCame -->
+        </test-method> <!-- TC_1_PCCLinkVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:17:42 IST" name="BrowserClose" finished-at="2023-09-11T16:17:42 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:17:42 IST" name="Browserlaunch" finished-at="2023-09-11T16:17:48 IST" duration-ms="5500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="TC_2_ScheduleLinkVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:17:48 IST" name="TC_2_ScheduleLinkVerification" finished-at="2023-09-11T16:18:14 IST" duration-ms="26348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_2_ScheduleLinkVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:18:14 IST" name="BrowserClose" finished-at="2023-09-11T16:18:14 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:18:14 IST" name="Browserlaunch" finished-at="2023-09-11T16:18:20 IST" duration-ms="6179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="TC_3_InspectionLinkVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:18:20 IST" name="TC_3_InspectionLinkVerification" finished-at="2023-09-11T16:18:44 IST" duration-ms="23260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_3_InspectionLinkVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:18:44 IST" name="BrowserClose" finished-at="2023-09-11T16:18:44 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:18:44 IST" name="Browserlaunch" finished-at="2023-09-11T16:18:50 IST" duration-ms="5820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="TC_4_SnaglistLinkVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:18:50 IST" name="TC_4_SnaglistLinkVerification" finished-at="2023-09-11T16:19:15 IST" duration-ms="25328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_4_SnaglistLinkVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:19:15 IST" name="BrowserClose" finished-at="2023-09-11T16:19:15 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:19:15 IST" name="Browserlaunch" finished-at="2023-09-11T16:19:21 IST" duration-ms="6234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="TC_5_SafetyLinkVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:19:21 IST" name="TC_5_SafetyLinkVerification" finished-at="2023-09-11T16:19:48 IST" duration-ms="26716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_5_SafetyLinkVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:19:48 IST" name="BrowserClose" finished-at="2023-09-11T16:19:48 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:19:48 IST" name="Browserlaunch" finished-at="2023-09-11T16:19:54 IST" duration-ms="5757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="TC_6_RiskManagementVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:19:54 IST" name="TC_6_RiskManagementVerification" finished-at="2023-09-11T16:20:18 IST" duration-ms="23960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_6_RiskManagementVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:20:18 IST" name="BrowserClose" finished-at="2023-09-11T16:20:18 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:20:18 IST" name="Browserlaunch" finished-at="2023-09-11T16:20:24 IST" duration-ms="6175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="TC_7_SubmittalLinkVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:20:24 IST" name="TC_7_SubmittalLinkVerification" finished-at="2023-09-11T16:20:48 IST" duration-ms="23430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_7_SubmittalLinkVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:20:48 IST" name="BrowserClose" finished-at="2023-09-11T16:20:48 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="Browserlaunch()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:20:48 IST" name="Browserlaunch" finished-at="2023-09-11T16:20:54 IST" duration-ms="6111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="TC_8_RFILinkVerification()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:20:54 IST" name="TC_8_RFILinkVerification" finished-at="2023-09-11T16:21:20 IST" duration-ms="25672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_8_RFILinkVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:org.zepth.TestScript.CommenandCenterLinkVerification@235ecd9f]" started-at="2023-09-11T16:21:20 IST" name="BrowserClose" finished-at="2023-09-11T16:21:20 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- org.zepth.TestScript.CommenandCenterLinkVerification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

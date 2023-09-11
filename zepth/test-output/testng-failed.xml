@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.zepth.TestScript.TestCame">
+      <class name="org.zepth.TestScript.CommenandCenterLinkVerification">
         <methods>
           <include name="Browserlaunch"/>
-          <include name="Cotetest"/>
+          <include name="TC_2_ScheduleLinkVerification"/>
+          <include name="TC_1_PCCLinkVerification"/>
+          <include name="BrowserClose"/>
         </methods>
-      </class> <!-- org.zepth.TestScript.TestCame -->
+      </class> <!-- org.zepth.TestScript.CommenandCenterLinkVerification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
