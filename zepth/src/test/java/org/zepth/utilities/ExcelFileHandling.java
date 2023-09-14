@@ -13,13 +13,14 @@ public class ExcelFileHandling
 {
 
 
-	public static void ReadCell(int r, int c) throws IOException
+	public static String ReadCell(int r, int c) throws IOException
 	{
-		File f = new File("../xlsx/data.xlsx");
+		File f = new File("../zepth/Credentials.xlsx");
 		FileInputStream fs = new FileInputStream(f);
 		XSSFWorkbook wb = new XSSFWorkbook(fs);
 		XSSFSheet sh = wb.getSheetAt(0);
 		int row = sh.getPhysicalNumberOfRows();
+		String data = null;
 		if(r<=row)
 		{
 			XSSFRow xr = sh.getRow(r-1);
@@ -27,18 +28,20 @@ public class ExcelFileHandling
 			if(c<=cell)
 			{
 				XSSFCell cl = xr.getCell(c-1);
+				data = cl.getStringCellValue();
 				System.out.println("Desired data is " + cl.getStringCellValue());
 			}
 			else System.out.println("Enter a correct cell number");
 			
 		}
 		else System.out.println("Enter a correct row number");
+		return data;
 		
 	}
 	
-	public static void ReadRow(int row) throws IOException
+	public static void ReadRow(int row, String FilePath) throws IOException
 	{
-		File f = new File("../xlsx/data.xlsx");
+		File f = new File("FilePath");
 		FileInputStream fs = new FileInputStream(f);
 		XSSFWorkbook wb = new XSSFWorkbook(fs);
 		XSSFSheet sh = wb.getSheetAt(0);

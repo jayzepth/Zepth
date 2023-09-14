@@ -30,10 +30,10 @@ public class Base
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		
 	}
-	@AfterMethod
-	public void BrowserClose()
-	{
-		driver.close();
-	}
+//	@AfterMethod
+//	public void BrowserClose()
+//	{
+//		driver.close();
+//	}
 
 }
